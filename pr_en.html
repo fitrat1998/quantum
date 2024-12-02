@@ -28,13 +28,20 @@
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
 
-    <!-- =======================================================
-    * Template Name: iLanding
-    * Template URL: https://bootstrapmade.com/ilanding-bootstrap-landing-page-template/
-    * Updated: Nov 12 2024 with Bootstrap v5.3.3
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
+    <style>
+        .banner {
+            width: 100%; /* Rasm kengligi moslashuvchan bo'ladi */
+            height: auto; /* Asl nisbatni saqlab qoladi */
+        }
+
+        @media (max-width: 768px) {
+            /* Mobil qurilmalar uchun (768px dan kichik ekranlar) */
+            .banner {
+                width: 100%; /* Ekranga to'liq sig'adigan qilib qiladi */
+                height: auto;
+            }
+        }
+    </style>
 </head>
 
 <body class="index-page">
@@ -55,14 +62,14 @@
                 <li><a href="en.html">Home</a></li>
                 <li><a href="pr_en.html" class="active">Programm</a></li>
             </ul>
-                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
         <div class="btn-getstarted" href="index.html#about" style="float: right  !important;">
-        <a href="pr_uz.html"><img src="assets/img/flags/flag-uz.png" alt=""></a>
-        <a href="pr_en.html"><img src="assets/img/flags/flag-en.png" alt=""></a>
-        <a href="pr_ru.html"><img src="assets/img/flags/flag-ru.png" alt=""></a>
-      </div>
+            <a href="pr_uz.html"><img src="assets/img/flags/flag-uz.png" alt=""></a>
+            <a href="pr_en.html"><img src="assets/img/flags/flag-en.png" alt=""></a>
+            <a href="pr_ru.html"><img src="assets/img/flags/flag-ru.png" alt=""></a>
+        </div>
 
     </div>
 </header>
@@ -73,6 +80,7 @@
     <section id="hero" class="hero section">
 
         <div class="container my-4">
+            <img class="banner" src="assets/img/en_banner.jpg" alt="" width="1200"><br>
             <h2 class="text-center mb-4">PROGRAMM</h2>
             <h3 class="text-center mb-4">«QUANTUM WEEK IN UZBEKISTAN </h3>
             <h4 class="text-center mb-4">10-11 December 2024, Samarkand</h4>
@@ -106,10 +114,11 @@
                             - Welcome speech<br>
                             - Student performance
                         </td>
-                        <td>Rustam Khalmuradov, SamSU President;
+                        <td>
+                            Rustam Khalmuradov, SamSU President;
                             Anvar Zakhidov, Director, Samarkand Quantum Center; Ruslan Yunusov,
-                            Co-Founder of the Russian Quantum Center (video message), Maxim Ostras, Director General,
-                            Russian Quantum Center; SamSU student performance group
+                            Co-Founder of the Russian Quantum Center (video message), Maxim Ostras, Director
+                            General, Russian Quantum Center; SamSU student performance group
                         </td>
                         <td>- SamSU top executives
                             - representatives of government authorities (relevant ministries, departments of education),<br>
@@ -119,8 +128,6 @@
                             - physics school teachers,<br>
                             - faculty members of higher institutions,<br>
                             - Mass Media (TV, information agencies)
-
-
                         </td>
                         <td>240</td>
                         <td>Assembly Hall, Main SamSU building</td>
@@ -130,12 +137,14 @@
                         <td>11.00 – 11.40</td>
                         <td>A lecture by Anvar Zakhidov</td>
                         <td>Anvar Zakhidov, Director of the Samarkand Quantum Center</td>
-                        <td>- SamSU top executives
-                            - representatives of government authorities (relevant ministries, departments of education),
-                            - students,
-                            - physics school teachers,
-                            - faculty members of higher institutions,
+                        <td>
+                            - SamSU top executives<br>
+                            - representatives of government authorities (relevant ministries, departments of education),<br>
+                            - students,<br>
+                            - physics school teachers,<br>
+                            - faculty members of higher institutions,<br>
                             - Mass Media (TV, information agencies)
+
                         </td>
                         <td>240</td>
                         <td>Assembly Hall, Main SamSU building</td>
@@ -145,13 +154,13 @@
                         <td>11.40 – 12.30</td>
                         <td>A lecture by Maxim Ostras</td>
                         <td>Maxim Ostras, Director General of the Russian Quantum Center</td>
-                        <td>- SamSU top executives
-                            - representatives of government authorities (relevant ministries, departments of education),
-                            - students,
-                            - physics school teachers,
-                            - faculty members of higher institutions,
+                        <td>
+                            - SamSU top executives <br>
+                            - representatives of government authorities (relevant ministries, departments of education),<br>
+                            - students,<br>
+                            - physics school teachers,<br>
+                            - faculty members of higher institutions,<br>
                             - Mass Media (TV, information agencies)
-
                         </td>
                         <td>240</td>
                         <td>Assembly Hall, Main SamSU building</td>
@@ -160,12 +169,8 @@
                         <td>4</td>
                         <td>12.30 – 13.00</td>
                         <td>Media scrum (radio / TV interview)</td>
-                        <td>- SamSU top executives
-                            - representatives of government authorities (relevant ministries, departments of education),
-                            - students,
-                            - physics school teachers,
-                            - faculty members of higher institutions,
-                            - Mass Media (TV, information agencies)
+                        <td>
+                            Maxim Ostras, Director General of the Russian Quantum Center
                         </td>
                         <td>Mass Media</td>
                         <td>-</td>
@@ -192,7 +197,8 @@
                             - Award ceremony
                         </td>
                         <td>Representatives of Rosatom – Quantum Technologies</td>
-                        <td>- senior classes (physics, math, biotech, IT classes)
+                        <td>
+                            - senior classes (physics, math, biotech, IT classes)
                             - schoolchildren from Bukhara
                             - winners of academic competitions
                         </td>
@@ -209,12 +215,20 @@
 
                             </ul>
                         </td>
-                        <td>Maxim Ostras, Director General of the Russian Quantum Center; Dmitry Chermoshentsev, Head of
+                        <td>
+                            Maxim Ostras, Director General of the Russian Quantum Center; Dmitry Chermoshentsev, Head of
                             Project Team for Internal R&D Support, Rosatom – Quantum Technologies;
                             representatives of the Samarkand Quantum Center
+
+
                         </td>
-                        <td>Physics school teachers, SamSU faculty</td>
-                        <td>20 physics school teachers
+                        <td>
+                            -physics school teachers
+                            -SamSU faculty members
+
+                        </td>
+                        <td>
+                            20 physics school teachers
                             10 SamSU faculty members, Samarkand Quantum Center young researchers
                         </td>
                         <td>SamSU Institute of Physics</td>
@@ -222,121 +236,23 @@
                     <tr>
                         <td>8</td>
                         <td>17.00 – 18.30</td>
-                        <td>Samarkand Quantum Center young researchers</td>
-                        <td>Dmitry Chermoshentsev, Head of Project Team for Internal R&D Support, Rosatom – Quantum
+                        <td>A talk-show on quantum technologies (led by Dmitry Chermoshentsev)</td>
+                        <td>
+                            Dmitry Chermoshentsev, Head of Project Team for Internal R&D Support, Rosatom – Quantum
                             Technologies
                         </td>
-                        <td>Dmitry Chermoshentsev, Head of Project Team for Internal R&D Support, Rosatom – Quantum
-                            Technologies
+                        <td>
+                            honours students from non-major faculties (IT programmers, biochemists, physics,
+                            mathematicians)
                         </td>
                         <td>50</td>
-                        <td>SamSU Institute of Biochemistry, hall for 50 seats. 2nd floor (monitor, microphone)</td>
+                        <td>
+                            SamSU Institute of Biochemistry, hall for 50 seats. 2nd floor (monitor, microphone)
+                        </td>
                     </tr>
                     </tbody>
                 </table>
 
-                <h2>11 December, Wednesday</h2>
-                <table class="table table-bordered table-striped table-hover">
-                    <thead class="table-primary">
-                    <tr>
-                        <th>#</th>
-                        <th>Time</th>
-                        <th>Event</th>
-                        <th>Speakers</th>
-                        <th>Participants</th>
-                        <th>Number of Persons</th>
-                        <th>Address</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>10.00 – 11.30</td>
-                        <td>A lecture for scientists by scientists (Мaxim Ostras, Dmitry Chermoshentsev)</td>
-                        <td>Director General of the Russian Quantum Center</td>
-                        <td>master’s students, PHD students (natural sciences)</td>
-                        <td>100</td>
-                        <td>master’s students, PHD students (natural sciences)</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>10.00 – 12.00</td>
-                        <td>SCHOOL TRACK:<br>
-                            - Quantum lesson<br>
-                            - Educational film<br>
-                            - Quantum quiz<br>
-                            - Practical work<br>
-                            - Award ceremony
-                        </td>
-                        <td>Representatives of Rosatom – Quantum Technologies</td>
-                        <td>Senior classes (physics, math, biotech, IT classes)</td>
-                        <td>50-100</td>
-                        <td>A Samarkand school, school assembly hall + classrooms</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>11.30 – 13.00</td>
-                        <td>Physics Teachers Track:
-                            <ul>
-                                <li>A lecture</li>
-                            </ul>
-                        </td>
-                        <td>Representative of the Russian Quantum Center</td>
-                        <td>Physics school teachers</td>
-                        <td>15-20</td>
-                        <td>SamSU Institute of Physics</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>13.00 – 14.00</td>
-                        <td>LUNCH</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>14.00 – 16.00</td>
-                        <td>SCHOOL TRACK
-                            <ul>
-                                <p>A Quantum lesson at a Samarkand school:</p>
-                                <li> Lecture on quantum technologies</li>
-                                <li> Educational film</li>
-                                <li> Quantum quiz</li>
-                                <li> Practical work on a laser cutting training table</li>
-                                <li> Quantum games</li>
-                                <li> Award ceremony</li>
-
-                            </ul>
-                        </td>
-                        <td>Representatives of Rosatom – Quantum Technologies</td>
-                        <td>Senior classes (physics, math, biotech, IT classes)</td>
-                        <td>50-100</td>
-                        <td>School assembly hall/ classrooms</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>14.00 – 17.00</td>
-                        <td>Physics Teachers Track:<br>
-                            <ul>
-                                <li> Practicum</li>
-                                <li> Visit to the Samarkand Quantum Center labs</li>
-                                <li> A roundtable on Teaching Physics at School</li>
-                                <li> Award ceremony</li>
-
-                            </ul>
-                        </td>
-                        <td>Representative of the Russian Quantum Center
-
-                            Representative of the Samarkand Quantum Center
-                        </td>
-                        <td>Physics school teachers</td>
-                        <td>15-20</td>
-                        <td>SamSU Institute of Physics</td>
-                    </tr>
-                    </tbody>
-                </table>
 
             </div>
         </div>

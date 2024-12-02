@@ -28,13 +28,19 @@
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
 
-    <!-- =======================================================
-    * Template Name: iLanding
-    * Template URL: https://bootstrapmade.com/ilanding-bootstrap-landing-page-template/
-    * Updated: Nov 12 2024 with Bootstrap v5.3.3
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
+ <style>
+      .banner {
+        width: 100%; /* Rasm kengligi moslashuvchan bo'ladi */
+        height: auto; /* Asl nisbatni saqlab qoladi */
+    }
+
+    @media (max-width: 768px) { /* Mobil qurilmalar uchun (768px dan kichik ekranlar) */
+        .banner {
+            width: 100%; /* Ekranga to'liq sig'adigan qilib qiladi */
+            height: auto;
+        }
+    }
+    </style>
 </head>
 
 <body class="index-page">
@@ -55,14 +61,14 @@
                 <li><a href="index.html">Bosh sahifa</a></li>
                 <li><a href="pr_uz.html" class="active"">Dastur</a></li>
             </ul>
-                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
         <div class="btn-getstarted" href="index.html#about" style="float: right  !important;">
-        <a href="pr_uz.html"><img src="assets/img/flags/flag-uz.png" alt=""></a>
-        <a href="pr_en.html"><img src="assets/img/flags/flag-en.png" alt=""></a>
-        <a href="pr_ru.html"><img src="assets/img/flags/flag-ru.png" alt=""></a>
-      </div>
+            <a href="pr_uz.html"><img src="assets/img/flags/flag-uz.png" alt=""></a>
+            <a href="pr_en.html"><img src="assets/img/flags/flag-en.png" alt=""></a>
+            <a href="pr_ru.html"><img src="assets/img/flags/flag-ru.png" alt=""></a>
+        </div>
 
     </div>
 </header>
@@ -73,6 +79,7 @@
     <section id="hero" class="hero section">
 
         <div class="container my-4">
+            <img  class="banner" src="assets/img/uz_banner.jpg" alt="" width="1200"><br>
             <h2 class="text-center mb-4">DASTUR</h2>
             <h3 class="text-center mb-4">O'ZBEKISTONDA KVANT HAFTALIGI</h3>
             <h4 class="text-center mb-4">2024 yil 10-11 dekabr , Samarqand</h4>
@@ -91,7 +98,7 @@
 
 
                     <tr>
-                       <th>#</th>
+                        <th>#</th>
                         <th>Vaqt</th>
                         <th>Tadbir</th>
                         <th>Spikerlar</th>
@@ -106,13 +113,23 @@
                         <td>10.00 - 11.00</td>
                         <td>O‘ZBEKISTONDA KVANT HAFTALIGINING OCHILISHI:<br>• Kirish nutqi<br>• Talabalarning faoliyati
                         </td>
-                        <td>Rustam Xalmurodov, SamDU rektori; Anvar Zohidov, Samarqand kvant markazi direktori; Ruslan
-                            Yunusov (videomurojaat), Maksim Ostras, Rossiya kvant markazi bosh direktori; SamDU
-                            talabalari chiqish guruhi
+                        <td>
+                            Rustam Xalmurodov, SamDU rektori ;
+                            Anvar Zohidov, Samarqand kvant markazi direktori; Ruslan Yunusov,
+                            Rossiya kvant markazi asoschisi (videomurojaat), Maksim Ostras, Rossiya kvant markazi bosh
+                            direktori; SamDU talabalari chiqish guruhi
+
                         </td>
-                        <td>SamDU top-menejerlari, davlat organlari vakillari, Rosatom – Kvant texnologiyalari
-                            vakillari, Rossiya kvant markazi vakillari, talabalar, fizika o‘qituvchilari, oliy o‘quv
-                            yurtlari professor-o‘qituvchilari, ommaviy axborot vositalari (TV, axborot agentliklari)
+                        <td>
+                            - SamDU top-menejerlari
+                            - davlat organlari vakillari (tegishli vazirliklar, ta'lim idoralari);
+                            - Rosatom – Kvant texnologiyalari vakillari,
+                            - Rossiya kvant markazi vakillari,
+                            - talabalar,
+                            - fizika fani o'qituvchilari;
+                            - oliy o‘quv yurtlari professor-o‘qituvchilari;
+                            - ommaviy axborot vositalari (TV, axborot agentliklari)
+
                         </td>
                         <td>240</td>
                         <td>SamDU bosh binosi, majlislar zali</td>
@@ -122,8 +139,15 @@
                         <td>11.00 - 11.40</td>
                         <td>Anvar Zohidovning ma’ruzasi</td>
                         <td>Anvar Zohidov, Samarqand kvant markazi direktori</td>
-                        <td>SamDU top-menejerlari, davlat organlari vakillari, talabalar, fizika o‘qituvchilari, oliy
-                            o‘quv yurtlari professor-o‘qituvchilari, ommaviy axborot vositalari
+                        <td>
+                            - SamDU top-menejerlari
+                            - davlat organlari vakillari (tegishli vazirliklar, ta'lim idoralari);
+                            - Rosatom – Kvant texnologiyalari vakillari,
+                            - Rossiya kvant markazi vakillari,
+                            - talabalar,
+                            - fizika fani o'qituvchilari;
+                            - oliy o‘quv yurtlari professor-o‘qituvchilari;
+                            - ommaviy axborot vositalari (TV, axborot agentliklari)
                         </td>
                         <td>240</td>
                         <td>SamDU bosh binosi, majlislar zali</td>
@@ -133,8 +157,14 @@
                         <td>11.40 - 12.30</td>
                         <td>Maksim Ostrasning ma'ruzasi</td>
                         <td>Maksim Ostras, Rossiya kvant markazi bosh direktori</td>
-                        <td>SamDU top-menejerlari, davlat organlari vakillari, talabalar, fizika o‘qituvchilari, oliy
-                            o‘quv yurtlari professor-o‘qituvchilari, ommaviy axborot vositalari
+                        <td>
+                            - SamDU top-menejerlari
+                            - davlat organlari vakillari (tegishli vazirliklar, ta'lim idoralari);
+                            - talabalar,
+                            - fizika fani o'qituvchilari;
+                            - oliy o‘quv yurtlari professor-o‘qituvchilari;
+                            - ommaviy axborot vositalari (TV, axborot agentliklari)
+
                         </td>
                         <td>240</td>
                         <td>SamDU bosh binosi, majlislar zali</td>
@@ -173,7 +203,12 @@
 
                         </td>
                         <td>Rosatom - Kvant texnologiyalari vakillari</td>
-                        <td>Yuqori sinflar, Buxorodan o‘quvchilar, akademik tanlovlar g‘oliblari</td>
+                        <td>
+                            - yuqori sinflar (fizika, matematika, biotexnologiya, IT sinflari)
+                            - maktab o'quvchilari dan Buxoro
+                            - akademik tanlovlar g'oliblari
+
+                        </td>
                         <td>100</td>
                         <td>SamDU akademik litseyi majlislar zali/o‘quv xonalari</td>
                     </tr>
@@ -188,140 +223,42 @@
                             </ul>
                         </td>
                         <td>
-                            Maksim Ostras, Rossiya kvant markazi bosh direktori; Dmitriy Chermoshentsev,
-                            Rosatom – Kvant texnologiyalari ichki ilmiy-tadqiqot ishlarini qo'llab-quvvatlash bo'yicha
-                            loyiha guruhi rahbari ;
+                            Maksim Ostras, Rossiya kvant markazi bosh direktori; Dmitriy Chermoshentsev, Rosatom – Kvant
+                            texnologiyalari ichki ilmiy-tadqiqot ishlarini qo'llab-quvvatlash bo'yicha loyiha guruhi
+                            rahbari ;
+                            Samarqand kvant markazi vakillari
+
                         </td>
-                        <td>Fizika maktab o‘qituvchilari, SamDU professor-o‘qituvchilari</td>
-                        <td>20 nafar fizika maktabi o‘qituvchilari, 10 nafar SamDU professor-o‘qituvchilari, Samarqand
-                            Kvant markazi yosh tadqiqotchilari
+                        <td>
+                            -p fizika maktabi o'qituvchilari
+                            -SamDU professor-o‘qituvchilari
+                        </td>
+                        <td>
+                            20 nafar fizika maktabi o‘qituvchilari
+                            10 nafar SamDU professor-o‘qituvchilari, Samarqand Kvant markazi yosh tadqiqotchilari
                         </td>
                         <td>SamDU Fizika instituti</td>
                     </tr>
                     <tr>
                         <td>8</td>
                         <td>17.00 - 18.30</td>
-                        <td>Kvant texnologiyalari bo'yicha tok-shou</td>
                         <td>
-                            Maksim Ostras, Rossiya kvant markazi bosh direktori; Dmitriy Chermoshentsev, Rosatom – Kvant
-                            texnologiyalari ichki ilmiy-tadqiqot ishlarini qo'llab-quvvatlash bo'yicha loyiha guruhi
-                            rahbari ;
+                            Kvant texnologiyalari bo'yicha tok-shou (Dmitriy Chermoshentsev boshchiligida)
                         </td>
-                        <td>asosiy bo'lmagan fakultetlarning talabalarini (IT dasturchilar, biokimyogarlar, fizika,
+                        <td>
+                            Dmitriy Chermoshentsev, Rosatom – Kvant texnologiyalari ichki ilmiy-tadqiqot ishlarini
+                            qo‘llab-quvvatlash bo‘yicha loyiha guruhi rahbari
+                        </td>
+                        <td>
+                            asosiy bo'lmagan fakultetlarning talabalarini (IT dasturchilar, biokimyogarlar, fizika,
                             matematiklar) taqdirlaydi
                         </td>
                         <td>50</td>
-                        <td>SamDU biokimyo instituti, 50 o‘rinli zal. 2-qavat</td>
+                        <td>SamDU biokimyo instituti, 50 o‘rinli zal. 2 - qavat (monitor, mikrofon)</td>
                     </tr>
                     </tbody>
                 </table>
 
-                <h2>11 dekabr, chorshanba</h2>
-                <table class="table table-bordered table-hover">
-                    <thead class="table-primary">
-                    <tr>
-                        <th>#</th>
-                        <th>Vaqt</th>
-                        <th>Tadbir</th>
-                        <th>Spikerlar</th>
-                        <th>Ishtirokchilar</th>
-                        <th>Ishtirokchilar soni</th>
-                        <th>Manzil</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>10.00 - 11.30</td>
-                        <td>Olimlarning olimlar uchun ma'ruzasi (Maxim Ostras, Dmitriy Chermoshentsev)</td>
-                        <td>Rossiya kvant markazi bosh direktori</td>
-                        <td>Magistratura talabalari, PHD talabalari (tabiiy fanlar)</td>
-                        <td>100</td>
-                        <td>SamDU Fizika instituti</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>10.00 - 12.00</td>
-                        <td>MAKTAB TREKI
-                            <ul>
-                                <p>Samarqand maktabida kvant darsi:</p>
-
-                                <li> Kvant texnologiyalari bo'yicha ma'ruza</li>
-                                <li> O'quv filmi</li>
-                                <li> Kvant viktorina</li>
-                                <li> Lazerli kesish o'quv stolida amaliy ish</li>
-                                <li> Kvant o'yinlari</li>
-                                <li> Taqdirlash marosimi</li>
-
-                            </ul>
-                        </td>
-                        <td>Rosatom - Kvant texnologiyalari vakillari</td>
-                        <td>Yuqori sinflar (fizika, matematika, biotexnologiya, IT sinflari)</td>
-                        <td>50-100</td>
-                        <td>Samarqand maktabi, maktab majlislar zali + sinf xonalari</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>11.30 - 13.00</td>
-                        <td>Fizika o'qituvchilari
-                            <ul>
-                                <li>Rossiya kvant markazi olimining ma'ruzasi</li>
-                            </ul>
-                        </td>
-                        <td>Rossiya kvant markazi vakili</td>
-                        <td>Fizika maktab o'qituvchilari</td>
-                        <td>15-20</td>
-                        <td>SamDU Fizika instituti</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>13.00 - 14.00</td>
-                        <td>TUSHLIK</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>14.00 - 16.00</td>
-                        <td>MAKTAB TREKI
-                            <ul>
-                                <p>Samarqand maktabida kvant darsi:</p>
-
-                                <li> Kvant texnologiyalari bo'yicha ma'ruza</li>
-                                <li> O'quv filmi</li>
-                                <li> Kvant viktorina</li>
-                                <li> Lazerli kesish o'quv stolida amaliy ish</li>
-                                <li> Kvant o'yinlari</li>
-                                <li> Taqdirlash marosimi</li>
-
-                            </ul>
-                        </td>
-                        <td>Rosatom - Kvant texnologiyalari vakillari</td>
-                        <td>Yuqori sinflar (fizika, matematika, biotexnologiya, IT sinflari)</td>
-                        <td>50-100</td>
-                        <td>Makrib majlislar zali/sinf xonalari</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>14.00 - 17.00</td>
-                        <td>FIZIKA O'QITUVCHILARI TREKI
-                            <ul>
-                                <li> Amaliyot</li>
-                                <li> Tashrif buyuring uchun the Samarqand Kvant Markaz laboratoriyalar</li>
-                                <li> “Maktabda fizika o‘qitish” mavzusida davra suhbati</li>
-                                <li> Taqdirlash marosimi</li>
-
-                            </ul>
-                        </td>
-                        <td>Rossiya kvant markazi vakili, Samarqand kvant markazi vakili</td>
-                        <td>Fizika maktab o'qituvchilari</td>
-                        <td>15-20</td>
-                        <td>SamDU Fizika instituti</td>
-                    </tr>
-                    </tbody>
-                </table>
 
             </div>
         </div>
